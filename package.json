@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "A project about the wechat public service",
   "author": "jokerchan <wb_cxw@163.com>",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node  --harmony app.js"
+  },
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "bluebird": "^3.5.0",

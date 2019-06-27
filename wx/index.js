@@ -6,9 +6,9 @@ var Wechat = require('../wechat/wechat')
 
 var config = {    // 设置配置信息
     wechat: {
-        appID: '',  // 填写微信开发者信息在此处
-        appSecret: '',
-        token: '',
+        appID: 'wx8933c10f9e79a2ac',  // 填写微信开发者信息在此处
+        appSecret: '018dfccdb771b4a0ffb1d349d4040379',
+        token: 'myfristpublicwechat',
         getAccessToken: function () {
             return util.readFileAsync(wechat_file)
         },
